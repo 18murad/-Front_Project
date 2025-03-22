@@ -1,10 +1,9 @@
-
+/* head-start */
 #navbar{ 
 
     align-items: center;
     padding: 15px 50px;
     background: white;
-    /* justify-content: space-evenly; */
     margin-top: 30px;
 }
 .nav{
@@ -61,19 +60,27 @@
     position: relative;
     font-size: 20px;
     cursor: pointer;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 .badge{
     position: absolute;
+    width: 25px;
+    height: 25px;
     top: -5px;
     right: -10px;
-    background: blue;
+    background: #2577fd;
     color: white;
-    font-size: 12px;
-    padding: 2px 5px;
+    font-size: 10px;
+    line-height: 25px;
     border-radius: 50%;
 }
 .sign-in{
-    background: blue;
+    background: #2577fd;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -84,3 +91,216 @@
 .sign-in:hover{
     background: darkblue;
 }
+/* head-end */
+
+/* body-start */
+#body{
+    font-family: Arial,sans-serif;
+    background-color: #C8EBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 764px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    background-color: #C8EBFF;
+   
+    border-radius: 10px;
+}
+.content{
+    max-width: 50%;
+}
+.discount{
+    color: #2577fd;
+    font-style: italic;
+    font-size: 40px;
+    font-family: Yellowtail;
+    width: 192;
+    height: 60px;
+}
+h1{
+    font-size: 100px;
+    margin: 0 0 13px;
+    color: #1f2022;
+    font-family: "Playfair Display",serif;
+    width: 457px;
+    height: 220px;
+}
+.description{
+    font-style: italic;
+    color: #313639;
+    font-size: 20px;
+    font-family: "Playfair Display",serif;
+    margin: 0 0 50px;
+    width: 457px;
+    height: 24px;
+}
+.shop-btn{
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 25px 29px ;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.shop-btn:hover{
+    background-color: #0056b3;
+}
+
+
+
+#shop-category{
+    width: 1338px;
+    height: 767px;
+    padding: 200px 45px 170px;
+}
+.Category{
+    width: 1153px;
+    height: 378px;
+}
+.category-title{
+    width: 1500px;
+    height: 133px;
+    font-size: 48px;
+    padding: 0 15px;
+    text-align: center;
+}
+.categories{
+    display: flex;
+    gap: 190px;
+    padding: 20px;
+}
+.category-card{
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+.category-card img{
+    width: 469px;
+    height: 285px;
+    position: relative;
+}
+.right{
+    position: absolute;
+}
+h3{
+    font-size: 48px;
+    margin: 10px 0;
+}
+.deals{
+    background-color: #FFCE25;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.discount{
+    color: #0071FE;
+    font-style: italic;
+    font-weight: bold;
+}
+.new-collection{
+    color: #0071FE;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+#latest-products{
+    margin-top: 170px;
+    padding: 20px;
+    width: 1588px;
+    height: 1547px;
+}
+.latest-head{
+    width: 1170px;
+    height: 79px;
+    font-size: 16px;
+    margin: 0 -15px 80px;
+    padding: 0 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+#latest-products h2{
+    width: 353px;
+    height: 48px;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    margin: 0 0 8px;
+}
+.type ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;
+    margin: 0 0 -1px;
+    padding: 8px 16px 10px;
+}
+.type ul li{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.active{
+    color: red;
+    font-weight: bold;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+.products img{
+    width: 360px;
+    height: 392px;
+}
+.product{
+    padding: 15px;
+    position: relative;
+    width: 200px;
+}
+.new-tag{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.rating{
+    margin-top: 10px;
+    color: gold;
+    height: 33px;
+    font-size: 25px;
+}
+.product-caption{
+    text-align: center;
+    width: 290px;
+    height: 97px;
+}
+.product-caption a{
+    width: 177px;
+    height: 22px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    margin: 0 0 16px;
+    color: #383838;
+}
+.price ul li{
+    display: flex;
+}
+/* body-end */

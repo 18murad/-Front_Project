@@ -229,6 +229,10 @@ h3{
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
+    border: 1px solid grey;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
 }
 #latest-products h2{
     width: 353px;
@@ -261,6 +265,7 @@ h3{
     gap: 200px;
     margin-top: 20px;
     margin-right: 190px;
+    flex-wrap: wrap;
 }
 .products img{
     width: 360px;
@@ -291,6 +296,7 @@ h3{
     text-align: center;
     width: 290px;
     height: 97px;
+    margin-left: 40px;
 }
 .product-caption a{
     width: 177px;
@@ -300,7 +306,299 @@ h3{
     margin: 0 0 16px;
     color: #383838;
 }
+.price{
+    font-weight: bold;
+}
 .price ul li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px;
+}
+.red-line{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+.banner{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF6D9;
+    padding: 50px;
+    position: relative;
+    height: 581px;
+    width: 1469px;
+    margin-left: 59px;
+}
+.banner-text{
+    max-width: 50%;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+.banner-text h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-text p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #373b41;
+}
+.shpnow-btn{
+    display: inline-block;
+    padding: 27px 44px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.banner img{
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 120px;
+}
+.model{
+    
+    left: 20px;
+    max-width: 250px;
+    bottom: 0;
+}
+.right-products{
+    position: absolute;
+    right: 60px;
+    bottom: -100px;
+}
+.vertical-text span{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 117px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #e6dfc6;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 0;
+    left: 190px;
+    top: 110px;
+}
+
+#Denim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.b-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+}
+.F-part{
+    max-width: 40%;
+    margin-top: 150px;
+}
+.F-part h2{
+    font-size: 45px;
+    margin-bottom: 19px;
+    font-weight: 700;
+}
+.F-part p{
+    font-size: 20px;
+    color: #373b41;
+    margin-bottom: 55px;
+}
+.shpnow-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 27px 44px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.shpnow-btn:hover{
+    background-color: #0056b3
+}
+.F-part img{
+    display: flex;
+    padding-top: 100px;
+}
+.img-part{
+    position: relative;
+    text-align: center;
+}
+.model-parttw{
+    width: 317px;
+}
+.TH-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+.crop{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    padding-right: 60px;
+}
+.crop h4{
+    background-color: #2577fd;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 171px;
+    height: 85px;
+}
+.TH-part .product{
+    display: flex;
+}
+.product{
+    width: 242px;
+}
+.product h4{
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+
+#offers-news{    
+    margin-top: 200px;
+}
+.email-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./latest-offer.png.webp);
+    padding: 50px;
+    position: relative;
+    height: 400px;
+    width: 1469px;
+    margin-left: 59px;
+}
+.offers-image img{
+
+    height: auto;
+    margin-top: 120px;
+}
+.offers-content{
+    display: flex;
+}
+.offers-content h2{
+    font-size: 45px;
+    margin: 0;
+    width: 457px;
+}
+.offers-content h2 span{
+    font-weight: bold;
+}
+.offers-content p{
+    font-size: 20px;
+    color: #373b41;
+}
+.subscription-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.subscription-box input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.subscription-box button{
+    background-color: #2576ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.subscription-box button:hover{
+    background-color: #0056d2;
+}
+
+.fss-system{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    
+}
+.fsm-method{
+    width: 210px;
+    height: 215px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+.fsm-method i{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #282828;
+    margin-bottom: 25px;
+    display: block;
+}
+.fsm-method h6{
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    width: 210px;
+    height: 48px;
+}
+.fsm-method p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.sps-system{
+    width: 210px;
+    height: 215px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+.sps-system i{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #282828;
+    margin-bottom: 25px;
+    display: block;
+}
+.sps-system h6{
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    width: 210px;
+    height: 48px;
+}
+.sps-system p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
 }
 /* body-end */

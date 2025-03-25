@@ -1,0 +1,251 @@
+/* HEADER-START */
+#nav-area{
+    background-image: url(	https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg);
+    height: 300px;
+}
+.Pro-list h2{
+    width: 1140px;
+    height: 60px;
+    font-size: 50px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: 250px;
+    padding-top: 100px;
+}
+/* HEADER-END */
+
+/* MAIN-START */
+#cart_area{
+    padding: 200px 0;
+    margin: 0 200px;
+}
+.table thead tr th{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color: #828bb2;
+    border-bottom: 0px;
+    text-align: left;
+    padding: 12px;
+
+}
+.d-flex img{
+    width: 150px;
+    height: 155px;
+    margin: 0 30px 0 0;
+}
+.media{
+    display: flex;
+    padding: 30px 12px;
+
+}
+.media-body {
+    width: 559px;
+    height: 24px;
+    color: #506172;
+    font-size: 16px;
+    align-self: center;
+}
+td h5{
+    font-size: 14px;
+    color: #415094;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0;
+}
+.product_count{
+    position: relative;
+}
+.product_count input{
+    width: 100px;
+    padding-left: 30px;
+    height: 50px;
+    border: 1px solid #dddddd;
+}
+.input-number{
+    padding: 1px 2px 1px 30px;
+}
+.input-number-decrement{
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+    padding: 10px;
+    border-left: 1px solid #dddddd;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.input-number-increment{
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+    padding: 10px;
+    border-left: 1px solid #dddddd;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+td{
+    padding: 30px 12px;
+}
+.table td{
+    border-top: 1px solid #dee2e6;
+}
+.btn_1{
+    display: inline-block;
+    padding: 17px 50px;
+    border-radius: 5px;
+    background-color: #2577fd;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s;
+    color: white;
+}
+.btn_1:hover{
+    background-color: white;
+    color: #2577fd;
+    border: 1px solid #2577fd;
+}
+.list li{
+    color: #828bb2;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.shipping_box h6{
+    font-size: 14px;
+    color: #415094;
+    margin: 20px 0 ;
+    
+}
+.filters{
+    margin-top: 50px;
+    width: 306px;
+}
+.search-box, .dropdown{
+    padding: 10px;
+    border: 1px solid #f3e8f0;
+    border-radius: 5px;
+    width: 306px;
+    height: 50px;
+    background: #F7F7F7;
+    margin-bottom: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.shipping_area td h5{
+    height: 50%;
+    margin-bottom: 430px;
+}
+.list li{
+    margin-left: 140px;
+}
+.shipping_box h6{
+    margin-left: 150px;
+}
+/* MAIN-END */
+
+/* FOOTER-START */
+.footer-area{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 70px;
+    
+}
+.estore{
+    width: 210px;
+    height: 208px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.estore img{
+    height: 24px;
+    margin-bottom: 40px;
+}
+.estore p{
+    color: #868c98;
+    font-size: 16px;
+    margin-bottom: 50px;
+    width: 210px;
+    height: 144px;
+}
+.quick-links{
+    width: 210px;
+    height: 194px;
+    font-size: 16px;
+}
+.quick-links h4{
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+.quick-links ul li{
+    margin-bottom: 15px;
+}
+.quick-links ul li a{
+    color: #868c98;
+}
+.quick-links ul li a:hover{
+    color: #2577fd;
+}
+.New-Products{
+    width: 210px;
+    height: 194px;
+    font-size: 16px; 
+}
+.New-Products h4{
+    font-size: 20px;
+    margin-bottom: 29px;  
+}
+.New-Products ul li{
+    margin-bottom: 15px;
+}
+.New-Products ul li a{
+    color: #868c98;
+}
+.New-Products ul li a:hover{
+    color: #2577fd;
+}
+.support{
+    width: 210px;
+    height: 194px;
+    font-size: 16px; 
+}
+.support h4{
+    font-size: 20px;
+    margin-bottom: 29px; 
+}
+.support ul li{
+    margin-bottom: 15px;
+}
+.support ul li a{
+    color: #868c98;
+}
+.support ul li a:hover{
+    color: #2577fd;
+}
+
+.footer-container{
+    margin: 5rem 0 5rem 0;
+}
+
+.footer-container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}
+.copyright{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: #727272;
+}
+
+h6 i{
+    color: #2577fd;
+}
+h6 a{
+    color: #2577fd;
+}
+.social-link a i{
+    width: 26px;
+    height: 22px;
+    font-size: 14px;
+}
+/* FOOTER-END */

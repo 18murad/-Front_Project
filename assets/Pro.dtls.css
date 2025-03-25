@@ -1,3 +1,97 @@
+/* head-start */
+#navbar{ 
+
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    margin-top: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.list a:hover {
+    color: orangered;
+}
+.latest{
+    position: relative;
+}
+.hot{
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+.nav_icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-box{
+    position: relative;
+}
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 150px;
+}
+.search-box i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: #777;
+}
+.icon{
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.badge{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    right: -10px;
+    background: #2577fd;
+    color: white;
+    font-size: 10px;
+    line-height: 25px;
+    border-radius: 50%;
+}
+.sign-in{
+    background: #2577fd;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.sign-in:hover{
+    background: darkblue;
+}
+/* head-end */
 #nav-area{
     background-image: url(	https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg);
     height: 300px;

@@ -1,0 +1,241 @@
+/* HEADER-START */
+#nav-area{
+    background-image: url(	https://preview.colorlib.com/theme/estore/assets/img/hero/category.jpg);
+    height: 300px;
+}
+.Pro-list h2{
+    width: 1140px;
+    height: 60px;
+    font-size: 50px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: 250px;
+    padding-top: 100px;
+}
+/* HEADER-END */
+#login_part{
+    padding: 200px 0;
+}
+.container{
+    align-items: center !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.login_part_text{
+    background-image: linear-gradient(90deg, #B08EAD 0%, #4B3049 64%, #B08EAD 100%);
+    background-size: 200% auto;
+    width: 450px;
+    height: 400px;
+    font-size: 16px;
+}
+.login_part_text_iner{
+    width: 410px;
+    height: 360px;
+   padding-top: 100px;
+    color: white;
+}
+.login_part_text_iner h2{
+    width: 410px;
+    height: 35px;
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    margin: 0 0 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.login_part_text_iner p{
+    width: 410px;
+    height: 75px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    margin: 0 0 15px 40px;
+    color: #fff;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_part_text .btn_3{
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 28px;
+    color: #fff;
+}
+.btn_3{
+    display: inline-block;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: 0.5s;
+    margin-left: 100px
+}
+.btn_3:hover{
+    background-color: #fff;
+    color: #0056b3;
+}
+.login_part_form_iner h3{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.form-control{
+    border: 0px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    width: 415px;
+    height: 38px;
+    padding: 6px 12px;
+
+}
+.create_account{
+    margin: 11px 0 0;
+    font-size: 16px;
+    height: 21px;
+}
+label{
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.form-group .btn_1{
+    display: block;
+    width: 100%;
+    margin: 30px 0 17px;
+}
+.btn_1{
+    padding: 18px 36px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #2577fd;
+    font-size: 15px;
+    color: #2577fd;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.btn_1:hover{
+    background-color: #2577fd;
+    color: #fff;
+}
+.lost_pass{
+    color: #777777;
+    text-align: right;
+    float: right;
+    font-size: 16px;
+}
+
+/* FOOTER-START */
+.footer-area{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 70px;
+    
+}
+.estore{
+    width: 210px;
+    height: 208px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.estore img{
+    height: 24px;
+    margin-bottom: 40px;
+}
+.estore p{
+    color: #868c98;
+    font-size: 16px;
+    margin-bottom: 50px;
+    width: 210px;
+    height: 144px;
+}
+.quick-links{
+    width: 210px;
+    height: 194px;
+    font-size: 16px;
+}
+.quick-links h4{
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+.quick-links ul li{
+    margin-bottom: 15px;
+}
+.quick-links ul li a{
+    color: #868c98;
+}
+.quick-links ul li a:hover{
+    color: #2577fd;
+}
+.New-Products{
+    width: 210px;
+    height: 194px;
+    font-size: 16px; 
+}
+.New-Products h4{
+    font-size: 20px;
+    margin-bottom: 29px;  
+}
+.New-Products ul li{
+    margin-bottom: 15px;
+}
+.New-Products ul li a{
+    color: #868c98;
+}
+.New-Products ul li a:hover{
+    color: #2577fd;
+}
+.support{
+    width: 210px;
+    height: 194px;
+    font-size: 16px; 
+}
+.support h4{
+    font-size: 20px;
+    margin-bottom: 29px; 
+}
+.support ul li{
+    margin-bottom: 15px;
+}
+.support ul li a{
+    color: #868c98;
+}
+.support ul li a:hover{
+    color: #2577fd;
+}
+
+.footer-container{
+    margin: 5rem 0 5rem 0;
+}
+
+.footer-container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}
+.copyright{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: #727272;
+}
+
+h6 i{
+    color: #2577fd;
+}
+h6 a{
+    color: #2577fd;
+}
+.social-link a i{
+    width: 26px;
+    height: 22px;
+    font-size: 14px;
+}
+/* FOOTER-END */

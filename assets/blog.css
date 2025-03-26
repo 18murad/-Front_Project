@@ -1,0 +1,97 @@
+p{
+    color: gray;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+}
+.cardlar{
+    background-color: #fbf9ff!important;
+}
+.red{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 100px;
+    height: 100px;
+
+
+
+}
+.red :hover{
+    background-color: none;
+}
+.photo{
+   position: relative;
+   width: 800px;
+   height: 400px;  
+    
+
+
+}
+.card-body{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.picture{
+    display: flex;
+    align-items: center;
+   gap: 20px;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tags button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.instagram-feed{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.pagination{
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+  
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+  }
